@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    background: aliceblue;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-size: 50px;
+}
+
+.inputField{
+    width: 65%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    position: relative;
+}
+
+.inputField:focus{
+    outline: none;
+}
+
+.submitBtn{
+    margin-top: 15px;
+    width: 35%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: #48abe0;
+    color: bisque;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #00000020;
+    transition: all 0.2s ease;
+}
+
+.submitBtn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #00000020;
+    background-color: #65b9e6;
+}
+
+.submitBtn:active{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+
+.error{
+    color: red;
+    font-size: 13px;
+}
+
+.noError{
+    display: none;
+}

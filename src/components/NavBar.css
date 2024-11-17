@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav{
+    display: flex;
+    background: #8E2DE2;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    height: 70px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#logout{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: #48abe0;
+    width: 100px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px #00000020;
+    }
+
+    &:active{
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+}
